@@ -44,7 +44,6 @@ pytest
 pytest-mock
 python-dateutil
 pytz
-pywin32
 pyzmq
 requests
 scipy
