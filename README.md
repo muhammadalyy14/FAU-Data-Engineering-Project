@@ -2,17 +2,27 @@
 
 ![](https://byob.yarr.is/muhammadalyy14/FAU-Data-Engineering-Project/score_ex1) ![](https://byob.yarr.is/muhammadalyy14/FAU-Data-Engineering-Project/score_ex2) ![](https://byob.yarr.is/muhammadalyy14/FAU-Data-Engineering-Project/score_ex3) ![](https://byob.yarr.is/muhammadalyy14/FAU-Data-Engineering-Project/score_ex4) ![](https://byob.yarr.is/muhammadalyy14/FAU-Data-Engineering-Project/score_ex5)
 
-# Methods of Advanced Data Engineering Template Project
+# Climate Disaster Trends and Risk Correlation Analysis
 
-This template project provides some structure for your open data project in the MADE module at FAU.
-This repository contains (a) a data science project that is developed by the student over the course of the semester, and (b) the exercises that are submitted over the course of the semester.
-Before you begin, make sure you have [Python](https://www.python.org/) and [Jayvee](https://github.com/jvalue/jayvee) installed. We will work with [Jupyter notebooks](https://jupyter.org/). The easiest way to do so is to set up [VSCode](https://code.visualstudio.com/) with the [Jupyter extension](https://marketplace.visualstudio.com/items?itemName=ms-toolsai.jupyter).
+The project will leverage two comprehensive datasets to explore the above questions. The datasets include information on the frequency of climate-related disasters and climate-driven INFORM risk indicators. By integrating and analyzing these datasets, the project aims to provide insights into the global trends of climate-related disasters, identify the most affected regions, and evaluate the correlation between disaster severity and risk indicators.
 
-To get started, please follow these steps:
-1. Create your own fork of this repository. Feel free to rename the repository right after creation, before you let the teaching instructors know your repository URL. **Do not rename the repository during the semester**.
-2. Setup the exercise feedback by changing the exercise badge sources in the `README.md` file following the patter `![](https://byob.yarr.is/<github-user-name>/<github-repo>/score_ex<exercise-number>)`. 
-For example, if your user is _myuser_ and your repo is _myrepo_, then update the badge for _exercise 1_ to `![](https://byob.yarr.is/myrepo/myuser/score_ex1)`. Proceed with the remaining badges accordingly.
+# Datasources
 
+<!-- Describe each datasources you plan to use in a section. Use the prefic "DatasourceX" where X is the id of the datasource. -->
+
+# Datasource # 1: Climate-related Disasters Frequency
+* Data URL: https://opendata.arcgis.com/datasets/b13b69ee0dde43a99c811f592af4e821_0.csv
+* Metadata URL: https://climatedata.imf.org/datasets/b13b69ee0dde43a99c811f592af4e821_0/about
+* Data Type: .csv
+
+This dataset, sourced from EM-DAT by the Université catholique de Louvain, tracks the frequency of various climate-related disasters globally from 1980 to 2022. It includes detailed records for different types of disasters such as droughts, floods, extreme temperatures, landslides, storms, and wildfires. Each entry specifies the country affected, the type of disaster, and the annual occurrence data. This dataset enables an analysis of trends over decades to understand how the frequency of these disasters has changed in response to global climate change.
+
+# Datasource 2: Climate-driven INFORM Risk
+* Data URL: https://opendata.arcgis.com/datasets/7cae02f84ed547fbbd6210d90da19879_0.csv
+* Metadata URL: https://climatedata.imf.org/datasets/7cae02f84ed547fbbd6210d90da19879_0/about
+* Data Type: .csv
+
+The Climate-driven INFORM Risk Indicator, adjusted annually by IMF staff, provides a comprehensive assessment of the risk associated with climate-driven hazards. It focuses on three dimensions: hazard & exposure, vulnerability, and lack of coping capacity. Each country's data from 2013 to 2022 reflects the aggregated risk posed by potential climate-related events such as floods, tropical cyclones, and droughts. This dataset aids in evaluating the preparedness and vulnerability of different nations to handle climate-induced disasters.
 
 ## Project Work
 Your data engineering project will run alongside lectures during the semester. We will ask you to regularly submit project work as milestones so you can reasonably pace your work. All project work submissions **must** be placed in the `project` folder.
