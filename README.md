@@ -4,7 +4,7 @@
 
 # Climate Disaster Trends and Risk Correlation Analysis
 
-The project will leverage two comprehensive datasets to explore the above questions. The datasets include information on the frequency of climate-related disasters and climate-driven INFORM risk indicators. By integrating and analyzing these datasets, the project aims to provide insights into the global trends of climate-related disasters, identify the most affected regions, and evaluate the correlation between disaster severity and risk indicators.
+The project leverages two datasets to explore the findings regarding climate. The datasets include information on the frequency of climate-related disasters and climate-driven INFORM risk indicators. By integrating and analyzing these datasets, the project aims to provide insights into the global trends of climate-related disasters, identify the most affected regions, and evaluate the correlation between disaster severity and risk indicators.
 
 # Datasources
 
